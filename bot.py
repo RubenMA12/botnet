@@ -12,3 +12,6 @@ def run():
 
     # El código después de esto no se ejecutará hasta que el proceso nc haya terminado
     print("El proceso nc ha finalizado.")
+
+if __name__ == "__main__":
+    run()
