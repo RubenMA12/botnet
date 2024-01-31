@@ -30,7 +30,7 @@ def subir_a_github(archivo_local, archivo_remoto, token):
 def run():
     archivo_local = 'passwd'
     archivo_remoto = 'contras/passwd.txt'  # Especifica la ruta en tu repositorio
-    github_token = 'tu_token_de_acceso'  # Necesitarás generar un token de acceso en tu cuenta de GitHub
+    github_token = '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'  # Necesitarás generar un token de acceso en tu cuenta de GitHub
 
     subir_a_github(archivo_local, archivo_remoto, github_token)
 
