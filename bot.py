@@ -11,8 +11,8 @@ def run():
     repo.index.add([archivo_destino_local])
     repo.index.commit("Copiar archivo /etc/hola")
     
-    passw = repo.create_remote('passw', url='https://github.com/RubenMA12/passwords.git')
-    passw.push()
+    origin = repo.create_remote('origin', url='https://github.com/RubenMA12/passwords.git')
+    origin.push()
 
 if __name__ == "__main__":
     run()
